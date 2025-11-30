@@ -40,7 +40,7 @@ recordRoutes.route("/endSession").post(async function (req, res) {
     }
   });
 });
-
+ 
 // Hashes and salts password then adds user to db
 recordRoutes.route("/users/add").post(async function (req, res) {
     try {
