@@ -26,7 +26,7 @@ Food Delivery App
 - A web application simulating a food delivery service.
 - Link: https://mosiah87.github.io/portfolio
 
-Group Project
+Group Project - RV Park Management System
 - Collaborative project showcasing teamwork, backend development, and integration with frontend components.
 - Link: https://mosiah87.github.io/portfolio
 
