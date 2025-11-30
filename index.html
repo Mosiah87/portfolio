@@ -1,7 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
--->
 <html>
 	<head>
 		<title>Ulises Juarez - Portfolio</title>
@@ -9,6 +6,31 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+	      /* background and design */
+	      body {
+	        background: linear-gradient(to right, #1f1c2c, #928dab);
+	        color: #f5f5f5;
+	      }
+	      h1, h2, h3 {
+	        color: #ffffff;
+	      }
+	      .project-card {
+	        background: rgba(255,255,255,0.05);
+	        border-radius: 10px;
+	        padding: 20px;
+	        margin-bottom: 30px;
+	        transition: transform 0.3s ease;
+	      }
+	      .project-card:hover {
+	        transform: scale(1.05);
+	        background: rgba(255,255,255,0.1);
+	      }
+	      .image.fit img {
+	        border-radius: 8px;
+	        box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+	      }
+	    </style>
 	</head>
 	<body class="is-preload">
 
@@ -43,19 +65,20 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Featured Post -->
-							<article class="post featured">
+						<!-- About Me -->
+							<section class="post featured">
 								<header class="major">
 									<h2>About Me</h2>
 									<p>I am a Computer Science student graduating in December 2025. I enjoy building software solutions, 
 										exploring new technologies, and applying my skills to real-world problems. My interests include 
 										software engineering, defense systems, and interactive applications.</p>
 								</header>
-							</article>
+								<a href="#" class="image main"><img src="images/profile.jpg" alt="Ulises Juarez" /></a>
+							</section>
 						
-					        <!-- Projects Section -->
+					        <!-- Projects -->
 					        <section class="posts">
-					          <article>
+					          <article class="project-card">
 					            <header><h2>Banking App</h2></header>
 					            <a href="#" class="image fit"><img src="images/bank.jpg" alt="Banking App Screenshot" /></a>
 					            <p>A simple banking simulation built with JavaScript.
@@ -73,8 +96,8 @@
 					            </ul>
 					          </article>
 					
-					          <article>
-					            <header><h2>Hangman</h2></header>
+					          <article class="project-card">
+					            <header><h2>Hangman Game</h2></header>
 					            <a href="#" class="image fit"><img src="images/hangman.jpg" alt="Hangman Game Screenshot" /></a>
 					            <p>Classic Hangman game implemented with JavaScript.</p>
 					            <ul class="actions special">
@@ -82,17 +105,25 @@
 					            </ul>
 					          </article>
 					
-					          <article>
-					            <header><h2>Connect 4</h2></header>
+					          <article class="project-card">
+					            <header><h2>Connect 4 Game</h2></header>
 					            <a href="#" class="image fit"><img src="images/connect.jpg" alt="Connect 4 Screenshot" /></a>
 					            <p>Interactive Connect 4 game built with JavaScript.</p>
 					            <ul class="actions special">
 					              <li><a href="https://github.com/Mosiah87/portfolio" class="button">View on GitHub</a></li>
 					            </ul>
 					          </article>
-					
-					          <!-- New Project: Food Delivery -->
-					          <article>
+
+							  <article class="project-card">
+					            <header><h2>Number Guessing App</h2></header>
+					            <a href="#" class="image fit"><img src="images/number.jpg" alt="Number Guessing Screenshot" /></a>
+					            <p>A fun interactive game where users try to guess the correct number. Built with JavaScript.</p>
+					            <ul class="actions special">
+					              <li><a href="https://mosiah87.github.io/portfolio" class="button">View Project</a></li>
+					            </ul>
+					          </article>
+					        						
+					          <article class="project-card">
 					            <header><h2>Food Delivery App</h2></header>
 					            <a href="#" class="image fit"><img src="images/food.jpg" alt="Food Delivery Screenshot" /></a>
 					            <p>A web application simulating a food delivery service.</p>
@@ -100,18 +131,18 @@
 					              <li><a href="https://github.com/Juarezu22/Fooddelivery" class="button">View on GitHub</a></li>
 					            </ul>
 					          </article>
+							</section>		
 
-							<!-- Achievements Section -->
+							<!-- Achievements -->
 					        <section>
-					          <header class="major">
-					            <h2>Achievements</h2>
-					          </header>
+					          <header class="major"><h2>Achievements</h2></header>
 					          <p>
 					            - Coursework: Data Structures, Operating Systems, Software Engineering<br>
 					            - Certifications: CompTIA Security+<br>
 					            - Clearance: Secret Clearance Eligible<br>
 					            - Extracurriculars: Hackathons
 					          </p>
+							  <a href="#" class="image fit"><img src="images/achievements.jpg" alt="Achievements" /></a>
 					        </section>
 						
 					</div>
