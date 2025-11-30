@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
 import "bootstrap/dist/css/bootstrap.css";
-
+ 
 let insertedId;
 
 export default function Name() {
