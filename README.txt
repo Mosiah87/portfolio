@@ -6,7 +6,7 @@ Welcome to my digital portfolio! This repository is a professional showcase of m
 
 About Me
 --------
-I am a Computer Science student passionate about software development, problem-solving, and applying technology to real-world challenges. My interests include software engineering, interactive applications, and exploring new tools to optimize workflows.
+I am a Computer Science graduate (Dec 2025) passionate about software development, problem-solving, and applying technology to real-world challenges. My interests include software engineering, interactive applications, and exploring new tools to optimize workflows.
 
 Projects
 --------
