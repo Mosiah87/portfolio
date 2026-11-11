@@ -1,283 +1,289 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Ulises Juarez | Software Developer Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" type="image/png" href="images/favicon-dark.png" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-	      /* background and design */
-	      body {
-	        background: linear-gradient(to right, #1f1c2c, #928dab);
-	        color: #ffffff;
-	      }
-	      h1, h2, h3 {
-	        color: #ffcc00;
-	      }
-		  p, li, a {
-		  	color: #f5f5f5;
-		  }
-		  #main {
-			background: none;
-			box-shadow: none;
-			border: none;  
-		  }	
-	      .project-card {
-	        background: rgba(255,255,255,0.05);
-	        border-radius: 10px;
-	        padding: 20px;
-	        margin-bottom: 30px;
-	        transition: transform 0.3s ease;
-	      }
-	      .project-card:hover {
-	        transform: scale(1.05);
-	        background: rgba(255,255,255,0.1);
-	      }
-	      .image.fit img {
-	        border-radius: 8px;
-	        box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-	      }
-		  .post.featured,
-		  .posts article {
-			background: none;
-			box-shadow: none;
-			border: none;
-		  }
-		  .posts article {
-			background: rgba(255,255,255,0.05);
-			border-radius: 10px;
-			padding: 20px;
-			transition: transform 0.3s ease;
-		  }
-		  .posts article:hover {
-			transform: scale(1.05);
-			background: rgba(255,255,255,0.1);
-		  }
-		  .post.featured h2,
-		  .posts article h2,
-		  .posts article p {
-  			color: #f5f5f5;
-		  }
-	    </style>
-	</head>
-	<body class="main">
-
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-		
-				<!-- Intro / Hero -->
-					<div id="intro"> 
-						<h1>Ulises Juarez</h1> 
-						<p>Software Developer with a strong foundation in full‑stack development, UI design, 
-							and modern application architecture. I build clean, reliable, 
-							and user‑focused software for web and mobile platforms.</p> 
-						<ul class="actions"> 
-							<li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Explore</a> </li> 
-						</ul> 
-					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Portfolio</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Showcase</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/ulises-j-uj1" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/Mosiah87/portfolio" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- About Me -->
-							<section class="post featured"> 
-								<header class="major"> 
-									<h2>About Me</h2> 
-									<p> 
-										I graduated in December 2025 with a Bachelor of Science in Computer Science, 
-										and I’m currently part of a small startup focused on building modern 
-										mobile apps and web platforms. I specialize in creating clean, 
-										intuitive user interfaces and developing full‑stack solutions that 
-										are reliable, scalable, and easy to maintain. 
-										<br><br> 
-										I enjoy solving real problems through software, learning new technologies quickly, and delivering polished applications that feel great to use. 
-									</p> 
-								</header> 
-								<a class="image main"> 
-									<img src="images/Me.png" alt="Ulises Juarez" style="width:auto; height:auto;" /> 
-								</a> 
-							</section>
-						
-					        <!-- Projects -->
-					        <section class="posts">
-
-								<article class="project-card">
-								<header><h2>RV Park Management System</h2></header>
-								  <a href="#" class="image fit"><img src="images/teamRed.png" alt="RV Park Management System Screenshot" style="width:auto; height:auto;" /></a>
-								  <p>
-								    A full-stack reservation and customer management platform built as a Capstone project for CS 4760.  
-								    Customers reserve RV lots and manage their stays, while administrators handle lot availability, guest records, and billing.
-								    <br><br>
-								    Features:<br>
-								    - Customer dashboard with order history and tracking<br>
-								    - Admin interface for reservations, lots, guests, fees, employees<br>
-								    - Real-time balance tracking and financial impact handling<br>
-								    - Stripe integration for secure payments<br>
-								    - Intelligent filtering and reporting tools<br>
-								    <br>
-								    Tech Stack:<br>
-								    - ASP.NET Core · Razor Pages · C# · SQL Server · Stripe API · Bootstrap · jQuery · DataTables
-								  </p>
-								  <ul class="actions special">
-								    <li><a href="https://github.com/Mosiah87/portfolio" class="button">View on GitHub</a></li>
-								  </ul>
-							   </article>
-					        						
-					          <article class="project-card">
-					            <header><h2>Food Delivery App</h2></header>
-					            <a href="#" class="image fit"><img src="images/food.jpg" alt="Food Delivery Screenshot" /></a>
-					            <p> A full‑stack food delivery platform built using ASP.NET Core, Razor Pages, 
-									and C#. The application includes dynamic menu rendering, category filtering, 
-									item detail pages, and a fully interactive cart system. 
-									Users can browse meals, adjust quantities, view real‑time pricing updates, 
-									and simulate checkout with accurate subtotal, tax, and total calculations. 
-									<br><br> 
-									The backend is powered by SQL Server with structured tables for menu items, categories, orders, and 
-									cart sessions. Data is retrieved and updated through Entity Framework Core 
-									with clean, maintainable Razor Page handlers. The UI is built with Bootstrap 
-									for responsive layouts and jQuery/DataTables for fast, interactive filtering and sorting. 
-									<br><br> 
-									The app also includes form validation, error handling, and a mock payment workflow 
-									modeled after Stripe API patterns. Designed with modular components, separation of 
-									concerns, and production‑style architecture to mirror real delivery platforms.<br>
-								    Tech Stack:<br>
-								    - ASP.NET Core · Razor Pages · C# · SQL Server · Stripe API · Bootstrap · jQuery · DataTables
-								  </p>
-					            <ul class="actions special">
-					              <li><a href="https://github.com/Juarezu22/Fooddelivery" class="button">View on GitHub</a></li>
-					            </ul>
-					          </article>
-									
-					          <article class="project-card">
-					            <header><h2>Banking App</h2></header>
-					            <a href="#" class="image fit"><img src="images/bank.jpg" alt="Banking App Screenshot" /></a>
-					            <p>A simple banking simulation built with JavaScript.
-								It allows users to create accounts, deposit and withdraw funds, and view balances.<br>
-								Features<br>
-									- Create and manage accounts<br>
-									- Deposit and withdraw functionality<br>
-									- Transaction history tracking<br>
-									- Error handling for invalid inputs<br>
-								Tech Stack<br>
-									- JavaScript<br>
-									- HTML/CSS</p>
-					            <ul class="actions special">
-					              <li><a href="https://github.com/Mosiah87/portfolio" class="button">View on GitHub</a></li>
-					            </ul>
-					          </article>
-					
-					          <article class="project-card">
-					            <header><h2>Hangman Game</h2></header>
-					            <a href="#" class="image fit"><img src="images/hangman.jpg" alt="Hangman Game Screenshot" /></a>
-					            <p>Interactive Hangman game featuring dynamic UI updates, input validation, and smooth game flow.</p>
-					            <ul class="actions special">
-					              <li><a href="https://github.com/Mosiah87/portfolio" class="button">View on GitHub</a></li>
-					            </ul>
-					          </article>
-					
-					          <article class="project-card">
-					            <header><h2>Connect 4</h2></header>
-					            <a href="#" class="image fit"><img src="images/connect.jpg" alt="Connect 4 Screenshot" /></a>
-					            <p>A two‑player Connect 4 game with win detection, polished visuals, and intuitive gameplay.</p>
-					            <ul class="actions special">
-					              <li><a href="https://github.com/Mosiah87/portfolio" class="button">View on GitHub</a></li>
-					            </ul>
-					          </article>
-
-							  <article class="project-card">
-					            <header><h2>Number Guessing App</h2></header>
-					            <a href="#" class="image fit"><img src="images/number.jpg" alt="Number Guessing Screenshot" /></a>
-					            <p>A fun interactive number guessing game demonstrating logic flow, user feedback, and clean UI structure.</p>
-					            <ul class="actions special">
-					              <li><a href="https://mosiah87.github.io/portfolio" class="button">View Project</a></li>
-					            </ul>
-					          </article>
-
-							  <article class="project-card">
-							    <header><h2>California Speed App</h2></header>
-							    <a href="#" class="image fit"><img src="images/california-speed.jpg" alt="California Speed App Screenshot" /></a>
-							    <p>A fast-paced card game simulation built with JavaScript.  
-							    Players race to match cards quickly, testing reflexes and accuracy.  
-							    <br>
-							    Features:<br>
-							    - Interactive gameplay with real-time feedback<br>
-							    - Score tracking and win/loss conditions<br>
-							    - Simple, responsive design for desktop and mobile<br>
-							    <br>
-							    Tech Stack:<br>
-							    - JavaScript<br>
-							    - HTML/CSS
-							  </p>
-							  <ul class="actions special">
-							    <li><a href="https://github.com/Mosiah87/portfolio" class="button">View on GitHub</a></li>
-							  </ul>
-							  </article>	
-							</section>
-
-							<!-- Achievements -->
-					        <section>
-					          <header class="major"><h2>Achievements</h2></header>
-					          <p>
-					            - Coursework: Data Structures, Operating Systems, Software Engineering<br>
-					            - Certifications: CompTIA Security+<br>
-					            - Clearance: Secret Clearance Eligible<br>
-					            - Extracurriculars: Hackathons
-					          </p>
-							  <a href="#" class="image fit"><img src="images/achievements.jpg" alt="Achievements" /></a>
-					        </section>
-						
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section>
-								<h3>Email</h3>
-								<p><a href="mailto:Mosiah87@gmail.com">Mosiah87@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/ulises-j-uj1" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/Mosiah87/portfolio" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Ulises Juarez</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ulises Juarez | Software Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Ulises Juarez, a full-stack software developer building web, desktop, and mobile applications with C#, ASP.NET Core, and JavaScript.">
+  <meta name="author" content="Ulises Juarez">
+  <meta property="og:title" content="Ulises Juarez | Software Developer Portfolio">
+  <meta property="og:description" content="Full-stack projects built with C#, ASP.NET Core, Avalonia, and React.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="images/Me.png">
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to projects</a>
+ 
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#top">Ulises Juarez</a>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+ 
+  <main id="top">
+ 
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div>
+          <p class="eyebrow">Software Developer</p>
+          <h1 id="hero-title">Hi, I'm Ulises Juarez.</h1>
+          <p class="lead">
+            I build clean, reliable, and user-focused software across web, desktop,
+            and mobile, with a strong foundation in full-stack development, UI design,
+            and modern application architecture.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View my work</a>
+            <a class="btn" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <img class="avatar" src="images/Me.png" alt="Portrait of Ulises Juarez" width="190" height="190">
+      </div>
+    </section>
+ 
+    <!-- About -->
+    <section id="about" class="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title" class="section-title">About me</h2>
+        <p class="section-sub">Computer Science graduate focused on building polished, maintainable software.</p>
+        <p>
+          I graduated in December 2025 with a Bachelor of Science in Computer Science, and I'm
+          currently part of a small startup focused on building modern mobile apps and web platforms.
+          I specialize in creating clean, intuitive user interfaces and developing full-stack
+          solutions that are reliable, scalable, and easy to maintain.
+        </p>
+        <p>
+          I enjoy solving real problems through software, learning new technologies quickly, and
+          delivering polished applications that feel great to use.
+        </p>
+      </div>
+    </section>
+ 
+    <!-- Projects -->
+    <section id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title" class="section-title">Featured projects</h2>
+        <p class="section-sub">Full-stack applications with real-world architecture: payments, databases, and integrations.</p>
+ 
+        <div class="grid featured">
+ 
+          <!-- DJ Copilot -->
+          <article class="card">
+            <div class="thumb dj" role="img" aria-label="DJ Copilot project banner">
+              <div class="eq" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <span class="thumb-label">DJ Copilot</span>
+            </div>
+            <div class="card-body">
+              <h3>DJ Copilot</h3>
+              <p class="kind">Desktop app · Personal project</p>
+              <p>
+                A desktop assistant for DJs that recommends what to play next. It connects to
+                VirtualDJ and, in Live Mode, updates its suggestions to follow the track that is
+                currently playing.
+              </p>
+              <ul class="points">
+                <li>Recommendation engine for choosing the next track</li>
+                <li>Live Mode that follows the song playing in VirtualDJ</li>
+                <li>Build your library from a CSV, MP3 folders, or a VirtualDJ import</li>
+                <li>MVVM architecture with a custom-styled cross-platform UI</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies">
+                <li>C#</li><li>.NET</li><li>Avalonia UI</li><li>MVVM</li><li>VirtualDJ</li>
+              </ul>
+            </div>
+          </article>
+ 
+          <!-- RV Park -->
+          <article class="card">
+            <div class="thumb rv" role="img" aria-label="RV Park Management System banner">
+              <span class="thumb-label">RV Park Management</span>
+            </div>
+            <div class="card-body">
+              <h3>RV Park Management System</h3>
+              <p class="kind">Web app · Capstone (CS 4760)</p>
+              <p>
+                A full-stack reservation and customer management platform. Customers reserve RV
+                lots and manage their stays, while administrators handle availability, guest
+                records, and billing.
+              </p>
+              <ul class="points">
+                <li>Customer dashboard with order history and tracking</li>
+                <li>Admin tools for reservations, lots, guests, fees, and employees</li>
+                <li>Real-time balance tracking and financial impact handling</li>
+                <li>Secure payments with Stripe, plus filtering and reporting</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies">
+                <li>ASP.NET Core</li><li>Razor Pages</li><li>C#</li><li>SQL Server</li>
+                <li>Stripe API</li><li>Bootstrap</li><li>jQuery</li><li>DataTables</li>
+              </ul>
+            </div>
+          </article>
+ 
+          <!-- Food Delivery -->
+          <article class="card">
+            <div class="thumb food" role="img" aria-label="Food Delivery App banner">
+              <span class="thumb-label">Food Delivery</span>
+            </div>
+            <div class="card-body">
+              <h3>Food Delivery App</h3>
+              <p class="kind">Web app</p>
+              <p>
+                A food delivery platform with dynamic menus, category filtering, item detail pages,
+                and an interactive cart with real-time pricing, tax, and total calculations.
+              </p>
+              <ul class="points">
+                <li>SQL Server data model for menu items, categories, orders, and cart sessions</li>
+                <li>Entity Framework Core with clean Razor Page handlers</li>
+                <li>Form validation, error handling, and a mock payment flow modeled on Stripe</li>
+                <li>Modular, production-style architecture</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies">
+                <li>ASP.NET Core</li><li>Razor Pages</li><li>C#</li><li>SQL Server</li>
+                <li>EF Core</li><li>Bootstrap</li><li>jQuery</li><li>DataTables</li>
+              </ul>
+              <div class="card-actions">
+                <a class="btn small" href="https://github.com/Juarezu22/Fooddelivery" target="_blank" rel="noopener">View on GitHub</a>
+              </div>
+            </div>
+          </article>
+ 
+        </div>
+ 
+        <h3 class="subhead">More projects</h3>
+ 
+        <div class="grid compact">
+ 
+          <article class="card">
+            <div class="thumb"><img src="images/bank.jpg" alt="Banking App screenshot" loading="lazy"></div>
+            <div class="card-body">
+              <h3>Banking App</h3>
+              <p>Create accounts, deposit, withdraw, and transfer funds, with transaction history and input validation.</p>
+              <ul class="tags" aria-label="Technologies"><li>JavaScript</li><li>React</li><li>Node.js</li></ul>
+              <div class="card-actions">
+                <a class="btn small" href="https://github.com/Mosiah87/portfolio/tree/master/banking-app" target="_blank" rel="noopener">View code</a>
+              </div>
+            </div>
+          </article>
+ 
+          <article class="card">
+            <div class="thumb"><img src="images/hangman.jpg" alt="Hangman game screenshot" loading="lazy"></div>
+            <div class="card-body">
+              <h3>Hangman</h3>
+              <p>Interactive word game with dynamic UI updates, input validation, high scores, and smooth game flow.</p>
+              <ul class="tags" aria-label="Technologies"><li>JavaScript</li><li>React</li><li>Node.js</li></ul>
+              <div class="card-actions">
+                <a class="btn small" href="https://github.com/Mosiah87/portfolio/tree/master/hangman-app" target="_blank" rel="noopener">View code</a>
+              </div>
+            </div>
+          </article>
+ 
+          <article class="card">
+            <div class="thumb"><img src="images/connect.jpg" alt="Connect 4 screenshot" loading="lazy"></div>
+            <div class="card-body">
+              <h3>Connect 4</h3>
+              <p>Two-player Connect 4 with win detection, polished visuals, and intuitive gameplay.</p>
+              <ul class="tags" aria-label="Technologies"><li>JavaScript</li><li>React</li></ul>
+              <div class="card-actions">
+                <a class="btn small" href="https://github.com/Mosiah87/portfolio/tree/master/connect-four-app" target="_blank" rel="noopener">View code</a>
+              </div>
+            </div>
+          </article>
+ 
+          <article class="card">
+            <div class="thumb num" role="img" aria-label="Number Guessing App banner"><span class="thumb-label">Number Guessing</span></div>
+            <div class="card-body">
+              <h3>Number Guessing</h3>
+              <p>Interactive guessing game demonstrating logic flow, user feedback, and a high-score board.</p>
+              <ul class="tags" aria-label="Technologies"><li>JavaScript</li><li>React</li><li>Node.js</li></ul>
+              <div class="card-actions">
+                <a class="btn small" href="https://github.com/Mosiah87/portfolio/tree/master/number-guessing-app" target="_blank" rel="noopener">View code</a>
+              </div>
+            </div>
+          </article>
+ 
+          <article class="card">
+            <div class="thumb speed" role="img" aria-label="California Speed App banner"><span class="thumb-label">California Speed</span></div>
+            <div class="card-body">
+              <h3>California Speed</h3>
+              <p>Fast-paced card game where players race to match cards, with score tracking and game history.</p>
+              <ul class="tags" aria-label="Technologies"><li>JavaScript</li><li>React</li><li>Node.js</li></ul>
+              <div class="card-actions">
+                <a class="btn small" href="https://github.com/Mosiah87/portfolio/tree/master/california-speed-app" target="_blank" rel="noopener">View code</a>
+              </div>
+            </div>
+          </article>
+ 
+        </div>
+      </div>
+    </section>
+ 
+    <!-- Skills & Achievements -->
+    <section id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title" class="section-title">Skills &amp; achievements</h2>
+        <p class="section-sub">The tools I use most and the credentials behind them.</p>
+ 
+        <div class="two-col">
+          <div class="panel">
+            <h3>Technologies</h3>
+            <ul class="tags">
+              <li>C#</li><li>.NET</li><li>ASP.NET Core</li><li>Razor Pages</li><li>Entity Framework Core</li>
+              <li>Avalonia UI</li><li>SQL Server</li><li>JavaScript</li><li>React</li><li>Node.js</li>
+              <li>Stripe API</li><li>Bootstrap</li><li>jQuery</li><li>HTML/CSS</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Achievements</h3>
+            <ul>
+              <li>B.S. in Computer Science (December 2025)</li>
+              <li>Coursework: Data Structures, Operating Systems, Software Engineering</li>
+              <li>Certification: CompTIA Security+</li>
+              <li>Clearance: Secret Clearance Eligible</li>
+              <li>Extracurriculars: Hackathons</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- Contact -->
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title" class="section-title">Let's work together</h2>
+        <p class="section-sub" style="margin-inline:auto">
+          I'm always interested in new opportunities and interesting problems. Reach out any time.
+        </p>
+        <div class="links">
+          <a class="btn primary" href="mailto:Mosiah87@gmail.com">Email me</a>
+          <a class="btn" href="https://www.linkedin.com/in/ulises-j-uj1" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/Mosiah87" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+ 
+  </main>
+ 
+  <footer class="site-footer">
+    <div class="container">&copy; <span id="year">2026</span> Ulises Juarez</div>
+  </footer>
+ 
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
+ 
