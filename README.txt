@@ -22,8 +22,8 @@ Connect 4 Game
 - Interactive Connect 4 game built with JavaScript.
 - Link: https://mosiah87.github.io/portfolio
 
-Food Delivery App
-- A web application simulating a food delivery service.
+Food Prep App
+- A web application for food prep service.
 - Link: https://mosiah87.github.io/portfolio
 
 Group Project - RV Park Management System
